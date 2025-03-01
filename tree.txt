@@ -1,0 +1,42 @@
+/home/labber/lighthouse/projects/scheduler-api
+├── .env.development
+├── .env.example
+├── .git
+│   └── # trimmed from tree
+├── .gitignore
+├── README.md
+├── node_modules
+│   └── # trimmed from tree
+├── package-lock.json
+├── package.json
+├── src
+│   ├── application.js
+│   ├── db
+│   │   ├── images
+│   │   │   ├── Alec_Quon.jpeg
+│   │   │   ├── Cohana_Roy.jpeg
+│   │   │   ├── Lindsay_Chu.jpeg
+│   │   │   ├── Mildred_Nazir.png
+│   │   │   ├── Samantha_Stanic.jpeg
+│   │   │   ├── Susan_Reynolds.jpeg
+│   │   │   ├── Sven_Jones.jpeg
+│   │   │   ├── Sylvia_Palmer.png
+│   │   │   ├── Tori_Malcolm.png
+│   │   │   └── Viktor_Jain.jpeg
+│   │   ├── index.js
+│   │   └── schema
+│   │       ├── create.sql
+│   │       ├── development.sql
+│   │       ├── production.sql
+│   │       └── test.sql
+│   ├── environment.js
+│   ├── index.js
+│   ├── routes
+│   │   ├── __tests__
+│   │   │   ├── days.test.js
+│   │   │   └── interviewers.test.j
+│   │   ├── appointments.js
+│   │   ├── days.js
+│   │   └── interviewers.js
+│   └── setupTests.js
+└── tree.txt

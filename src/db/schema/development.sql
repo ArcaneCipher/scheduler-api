@@ -12,16 +12,16 @@ SELECT time, id as day_id FROM days, times ORDER BY day_id, time;
 
 INSERT INTO interviewers (name, avatar)
 VALUES
-  ('Sylvia Palmer', 'https://i.imgur.com/LpaY82x.png'),
-  ('Tori Malcolm', 'https://i.imgur.com/Nmx0Qxo.png'),
-  ('Mildred Nazir', 'https://i.imgur.com/T2WwVfS.png'),
-  ('Cohana Roy', 'https://i.imgur.com/FK8V841.jpg'),
-  ('Sven Jones', 'https://i.imgur.com/twYrpay.jpg'),
-  ('Susan Reynolds', 'https://i.imgur.com/TdOAdde.jpg'),
-  ('Alec Quon', 'https://i.imgur.com/3tVgsra.jpg'),
-  ('Viktor Jain', 'https://i.imgur.com/iHq8K8Z.jpg'),
-  ('Lindsay Chu', 'https://i.imgur.com/nPywAp1.jpg'),
-  ('Samantha Stanic', 'https://i.imgur.com/okB9WKC.jpg');
+  ('Sylvia Palmer', 'images/sylvia_palmer.png'),
+  ('Tori Malcolm', 'images/tori_malcolm.png'),
+  ('Mildred Nazir', 'images/mildred_nazir.png'),
+  ('Cohana Roy', 'images/cohana_roy.jpg'),
+  ('Sven Jones', 'images/sven_jones.jpg'),
+  ('Susan Reynolds', 'images/susan_reynolds.jpg'),
+  ('Alec Quon', 'images/alec_quon.jpg'),
+  ('Viktor Jain', 'images/viktor_jain.jpg'),
+  ('Lindsay Chu', 'images/lindsay_chu.jpg'),
+  ('Samantha Stanic', 'images/samantha_stanic.jpg');
 
 INSERT INTO available_interviewers (day_id, interviewer_id)
 SELECT 1 as day_id, interviewers.interviewer_id FROM ( SELECT id AS interviewer_id FROM interviewers ORDER BY RANDOM() LIMIT 5 ) interviewers;
